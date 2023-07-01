@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FirstUnique/1.0.0": {
+        "dependencies": {
+          "FirstUniqueLib": "1.0.0"
+        },
+        "runtime": {
+          "FirstUnique.dll": {}
+        }
+      },
+      "FirstUniqueLib/1.0.0": {
+        "runtime": {
+          "FirstUniqueLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstUnique/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstUniqueLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

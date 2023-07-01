@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FirstUniqueLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FirstUniqueLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstUniqueLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstUniqueLib/1.0.0": {
+      "type": "project",
+      "path": "../FirstUniqueLib/FirstUniqueLib.csproj",
+      "msbuildProject": "../FirstUniqueLib/FirstUniqueLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FirstUniqueLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\stas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\VisualStudioCode\\BADTest\\FirstUnique\\FirstUnique.csproj",
+      "projectName": "FirstUnique",
+      "projectPath": "D:\\VisualStudioCode\\BADTest\\FirstUnique\\FirstUnique.csproj",
+      "packagesPath": "C:\\Users\\stas\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudioCode\\BADTest\\FirstUnique\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\stas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\VisualStudioCode\\BADTest\\FirstUniqueLib\\FirstUniqueLib.csproj": {
+              "projectPath": "D:\\VisualStudioCode\\BADTest\\FirstUniqueLib\\FirstUniqueLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

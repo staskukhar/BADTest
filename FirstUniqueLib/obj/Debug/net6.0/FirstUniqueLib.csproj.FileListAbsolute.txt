@@ -1,0 +1,12 @@
+D:\VisualStudioCode\BADTest\FirstUniqueLib\bin\Debug\net6.0\FirstUniqueLib.deps.json
+D:\VisualStudioCode\BADTest\FirstUniqueLib\bin\Debug\net6.0\FirstUniqueLib.dll
+D:\VisualStudioCode\BADTest\FirstUniqueLib\bin\Debug\net6.0\FirstUniqueLib.pdb
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.csproj.AssemblyReference.cache
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.AssemblyInfoInputs.cache
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.AssemblyInfo.cs
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.csproj.CoreCompileInputs.cache
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.dll
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\refint\FirstUniqueLib.dll
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\FirstUniqueLib.pdb
+D:\VisualStudioCode\BADTest\FirstUniqueLib\obj\Debug\net6.0\ref\FirstUniqueLib.dll

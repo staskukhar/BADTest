@@ -1,0 +1,61 @@
+@using FirstUniqueLib;
+@using Microsoft.JSInterop;
+
+@page "/searcher"
+
+<PageTitle>First Unique</PageTitle>
+
+<input type="text" @bind="@TextInput" />
+
+<button @onclick="Analize">Analyze</button>
+<button @onclick="Clear">Clear</button>
+
+<p>
+    <input @bind="FirstUnique" readonly/>
+</p>
+<label>
+    <input type="checkbox" @bind="@TrimEnabled" /> Trim Input
+</label>
+
+@code
+{
+    private string TextInput { get; set; }
+    private char? FirstUnique { get; set; }
+    private bool TrimEnabled { get; set; }
+    [Inject]
+    private IJSRuntime JSRuntime { get; set; }
+
+    private void Analize()
+    {
+        string trimmedInput = TextInput;
+
+        if (TrimEnabled)
+        {
+            trimmedInput = trimmedInput?.Trim();
+        }
+
+        if (!string.IsNullOrEmpty(trimmedInput) && !string.IsNullOrWhiteSpace(trimmedInput))
+        {
+            try
+            {
+                FirstUnique = FirstUniqueLib.Searcher.Search(trimmedInput);
+            }
+            catch(Exception e)
+            {
+                ShowPopup("Please try again, but be ensure that you use trim and prevent two spaces in row!");
+            }
+            
+            
+        }
+    }
+    private void Clear()
+    {
+        FirstUnique = null;
+        TextInput = String.Empty;
+    }
+    public void ShowPopup(string message)
+    {
+        // Use JavaScript's alert() function to display a popup window with the message
+        JSRuntime.InvokeVoidAsync("alert", message);
+    }
+}
